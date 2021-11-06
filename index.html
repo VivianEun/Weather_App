@@ -22,7 +22,7 @@
         <div class="weather_app">
           <form id="search-form" class="mb-3">
             <div class="row">
-              <div class="col-9">
+              <div class="col-6">
                 <input
                   type="search"
                   placeholder="Type a city..."
@@ -31,11 +31,18 @@
                   autocomplete="off"
                 />
               </div>
-              <div class="col-3">
+              <div class="col-6">
                 <input
                   type="submit"
                   value="Search"
-                  class="btn btn-primary w-100"
+                  class="btn btn-primary w-90"
+                />
+
+                <input
+                  type="submit"
+                  value="Current Location"
+                  class="btn btn-secondary"
+                  id="current-location-input"
                 />
               </div>
             </div>
