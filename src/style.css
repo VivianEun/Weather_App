@@ -86,6 +86,21 @@ li {
   text-decoration: none;
 }
 
+.weather-forecast {
+  margin-top: 50px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
 #github {
   display: inline-block;
   padding: 5px;
